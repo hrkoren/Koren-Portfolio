@@ -48,6 +48,15 @@ p {
     margin-left: 25px;
 }
 
+.sub-image {
+    background-image: url("../images/astronomy2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #022536;
+}
+
 #subtitle {
     font-size: 18px;
     float: right;
@@ -56,22 +65,78 @@ p {
     color: #ffffff;
 }
 
-.sub-image {
-    background-image: url("./images/astronomy2.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
-    display: inline-block;
-    width: 100%;
-    height: 300px;
-    border: 1px solid #022536;
+.row-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 1.5rem;
+    margin-right: -1.5rem;
+    justify-content: left;
 }
 
 .content {
-    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 2rem;
+    color: #022536;
+    outline: 2px solid;
+    outline-offset: -2px;
+  }
+
+.about-me,
+.work-title,
+.contact {
     display: inline-block;
-    margin-top: 20px;
-    margin-left: 20px;
+    position: relative;
+    font-size: 20px;
+    margin-top: 1.5rem;
+    margin-left: 5.5rem;
+    padding: 1rem 1rem;
+    color: #022536;
+}
+
+.work-title {
+    margin-left: 7.5rem;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px solid #022536;
+    
+}
+
+#about-me {
+    display: inline-flex;
+    margin-left: 300 px;
+}
+
+.sidebar {
+    display: inline-block;
+    position: relative;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-right: 4px solid #022536;
+    height: 100px;
     padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 80px 80px;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.grid-item1 {
+    grid-column: 1/ span 2;
+    border: 2px solid #022536;
+    padding-bottom: 4px;
+}
+
+.grid-item {
+    border: 2px solid #022536;
+    padding: 2px;
 }
 
 .contact nav ul {
