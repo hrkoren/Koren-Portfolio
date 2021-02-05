@@ -4,13 +4,13 @@
 
 ## Installation
 
-Click on the [Link](https://hrkoren.github.io)
+Click on the [Link](https://hrkoren.github.io/Koren-Portfolio/)
 
 ## Usage
 
 This portfolio is to be used to explore my various full-stack development projects.
 
-![Image of my portfolio page](./assets/images/portfolio.png)
+[Image of my portfolio page](./assets/images/portfolio.png)
 
 ## License
 
