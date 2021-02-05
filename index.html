@@ -1,71 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
-    <link rel="stylesheet" type ="text/css" href="./assets/css/style.css" />
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Koren Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/reset.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
 </head>
 
 <body>
-
     <header class="header">
-        <h1>Koren</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-                <li>
-                    <a href="https://docs.google.com/document/d/1Cx5DhErqxi0pLC23W8Sp1z1AhktQRWwL9SrFu4EJsE4/edit" target="_blank">Resume</a>
-                </li>
-            </ul>
-        </nav>
+      <h1>Heather Rushmore Koren</h1>
+      <nav>
+          <ul>
+              <li>
+                  <a href="#about-me">About Me</a>
+              </li>
+              <li>
+                  <a href="#work">Work</a>
+              </li>
+              <li>
+                  <a href="#contact">Contact Me</a>
+              </li>
+              <li>
+                  <a href="https://docs.google.com/document/d/1Cx5DhErqxi0pLC23W8Sp1z1AhktQRWwL9SrFu4EJsE4/edit?usp=sharing" target="_blank">Resume</a>
+              </li>
+          </ul>
+      </nav>
     </header>
 
-    <section class="sub-image">
-     <h2 id="subtitle">My Full-Stack Portfolio</h2>
+    <div>
+    <section class="subtitle-image"></section>
+
+    <section class="subtitle">
+        <h2 id="subtitle">My Full-Stack Development Portfolio</h2>
     </section>
+</div>
+<main>
 
-    <section class="row-content">
-       <article class="about-me">
-           <h2 class="sidebar">About Me</h2>
-           <p id="about-me">XXX My bio</p>
-       </article>
-   
-    <article class="work-title">
-        <h2 class="sidebar">Work</h2>
-        <div class="grid-container">
-            <div class="grid-item1">a href=" </div>
-            <div class="grid-item">2</div>
-            <div class="grid-item">3</div>
-            <div class="grid-item">4</div>
-            <div class="grid-item">5</div>
-            <div class="grid-item">6</div>
-            <div class="grid-item">7</div>
+   <section id="about">
+       <h2 class="side-header">About Me</h2>
+       <p id="about-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tempore temporibus adipisci quos quae dolorem a quisquam eligendi, nulla dicta illum maxime, soluta nesciunt distinctio voluptatum laboriosam saepe possimus. Alias.
+        <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, velit a explicabo earum quam ab suscipit doloribus saepe cupiditate deserunt quibusdam maiores et quae labore numquam fugit tempora modi! Praesentium.</p>
+   </section>
+
+   <section id="work">
+       <h2 class="side-header">Work Portfolio</h2>
+       <div class="portfolio-container">
+           <a href="https://hrkoren.github.io/coderefactor1/" id="proj1" type="_blank" style="background-image: url(./assets/images/Project1.JPG)">
+               <p class="projtitle">Project 1</p></a>
+           <a href="#" id="proj2" type="_blank" style="background-image: url(./assets/images/code1.JPG)">
+            <p class="projtitle">Project 2</p></a>
+           <a href="#" id="proj3">
+               <p class="projtitle">Project 3</p></a>
+            <a href="#" id="proj4" type="_blank" style="background-image: url(./assets/images/code3.JPG)">
+                <p class="projtitle">Project 4</p></a>
         </div>
-    </article>
+   </section>
 
-    <article class="contact">
-        <h2 class="sidebar">Contact Me</h2>
+    <section id="contact">
+        <h2 class="side-header">Contact Me</h2>
         <nav>
-            <ul id="contact">
-                <li>Phone</li>
-                <li>Email</li>
-                <li>GitHub</li>
-                <li>LinkedIn</li>
+            <ul class="contact">
+                <li id="phone"><strong>Phone:</strong>&nbsp; 412-660-4677</li>
+                <li id="email"><strong>Email:</strong>&nbsp; <a href="mailto:hrkoren@gmail.com">hrkoren@gmail.com</a></li>
+                <li id="github"><strong>GitHub:</strong>&nbsp; <a href="https://github.com/hrkoren">github.com/hrkoren</a></li>
+                <li id="linked"><strong>LinkedIn:</strong>&nbsp; <a href="https://www.linkedin.com/in/heatherkoren/">Profile</a></li>
             </ul>
         </nav>
-    </article>
-</section>
+    </section>
 
+</main>
 
 </body>
 </html>
