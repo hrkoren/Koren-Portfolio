@@ -10,7 +10,7 @@ Click [to view my portfolio](https://hrkoren.github.io/Koren-Portfolio/)
 
 This portfolio is to be used to explore my various full-stack development projects.
 
-[Image of my portfolio page](./Assets/images/portfolio.png)
+![Image of my portfolio page](./Assets/images/portfolio.PNG)
 
 ## License
 
