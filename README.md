@@ -8,9 +8,9 @@ Click [to view my portfolio](https://hrkoren.github.io/Koren-Portfolio/)
 
 ## Usage
 
-This portfolio is to be used to explore my various full-stack development projects.
+This portfolio is to be used to explore my various full-stack web development projects.
 
-![Image of my portfolio page](./Assets/images/portfolio.PNG)
+![Image of top-half of portfolio page](./Assets/images/portfolio.PNG) ![Image of bottom-half of portfolio page](./Assets/images/portfolio2.PNG)
 
 ## License
 
