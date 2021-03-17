@@ -4,7 +4,7 @@
 
 ## Installation
 
-Click [to view my portfolio](https://hrkoren.github.io/Koren-Portfolio/)
+[View my portfolio](https://hrkoren.github.io/Koren-Portfolio/)
 
 ## Usage
 
@@ -14,7 +14,7 @@ This portfolio is to be used to explore my various full-stack web development pr
 
 ## License
 
-This project is not licensed.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Tests
 
